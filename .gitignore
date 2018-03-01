@@ -2,4 +2,5 @@
 /.git/
 /.idea/
 /out/
-/learn-collections.iml
+/*.iml
+/*.ipr
