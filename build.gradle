@@ -1,7 +1,7 @@
 apply plugin: "java"
 apply plugin: "application"
 
-// mainClassName = 'com.apro.patterns.Main'
+ mainClassName = 'com.apro.collections.Main'
 
 
 sourceSets {
