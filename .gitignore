@@ -4,3 +4,6 @@
 /out/
 /*.iml
 /*.ipr
+/.gradle/
+.gradle/
+build/
