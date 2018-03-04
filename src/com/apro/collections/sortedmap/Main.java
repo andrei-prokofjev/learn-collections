@@ -8,7 +8,7 @@ public class Main {
 
     private Main() {
 
-        Map<Integer, String> map = new LinkedHashMap<>();
+        Map<Integer, String> map = new LinkedHashMap<>(5, 1, true);
 
 
         map.put(1, "к");
@@ -16,6 +16,14 @@ public class Main {
         map.put(2, "b");
         map.put(4, "d");
 
+
+        printMap(map);
+
+        System.out.println(">>>>");
+
+        map.get(3);
+        map.get(3);
+        map.get(1);
 
         printMap(map);
 
