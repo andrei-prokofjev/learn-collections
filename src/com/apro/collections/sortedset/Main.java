@@ -6,10 +6,9 @@ import java.util.TreeSet;
 
 public class Main {
 
-    private NavigableSet<Integer> set = new TreeSet<>();
-
     private Main() {
-//        Random random = new Random();
+        NavigableSet<Integer> set = new TreeSet<>();
+
         for (int i = 0; i < 5; i++) {
             set.add(i);
         }
@@ -22,9 +21,12 @@ public class Main {
         System.out.println(">>>");
 
         NavigableSet<Integer> descendingSet = set.descendingSet();
-
-
         printSet(descendingSet);
+
+        System.out.println(">>> ");
+
+
+
 
 
     }
@@ -40,10 +42,5 @@ public class Main {
         }
     }
 
-
-    public Integer getNextElement(Integer element) {
-        return null;
-
-    }
 
 }
