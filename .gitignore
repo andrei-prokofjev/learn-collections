@@ -6,5 +6,3 @@
 /*.ipr
 /.gradle/
 build/
-!/.idea/runConfigurations/sorted_map.xml
-!/.idea/runConfigurations/sorted_set.xml
