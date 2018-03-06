@@ -8,13 +8,14 @@ public class Main {
 
     private Main() {
 
-        Map<Integer, String> map = new LinkedHashMap<>(5, 1, true);
-
+        Map<Integer, String> map = new LinkedHashMap<>(3, 1.1f, true);
 
         map.put(1, "к");
         map.put(3, "c");
         map.put(2, "b");
         map.put(4, "d");
+        map.put(5, "d");
+        map.put(6, "d");
 
 
         printMap(map);

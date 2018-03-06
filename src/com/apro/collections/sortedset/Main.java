@@ -7,7 +7,7 @@ import java.util.TreeSet;
 public class Main {
 
     private Main() {
-        NavigableSet<Integer> set = new TreeSet<>();
+        NavigableSet<Integer> set = new TreeSet<>((o1, o2) -> o2 - o1);
 
         for (int i = 0; i < 5; i++) {
             set.add(i);
@@ -24,9 +24,6 @@ public class Main {
         printSet(descendingSet);
 
         System.out.println(">>> ");
-
-
-
 
 
     }
